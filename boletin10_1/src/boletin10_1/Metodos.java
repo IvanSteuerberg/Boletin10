@@ -17,7 +17,7 @@ int numero = Integer.parseInt(JOptionPane.showInputDialog("Introduce o numero a 
 this.num=numero;
 int intento = Integer.parseInt(JOptionPane.showInputDialog("Introduce o número de intentos"));
 this.intentos=intento;
-} while (num<=50 ||num>=1);
+} while (num>=50 ||num<=1);
 }
 
 public void adiviñar(){
